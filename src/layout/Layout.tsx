@@ -30,9 +30,9 @@ export default function Layout({ children }: LayoutProps) {
           <li>
             <Link to="/sync">Sync</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/drapAble">Drap Able</Link>
-          </li>
+          </li> */}
         </ul>
         {children}
       </header>

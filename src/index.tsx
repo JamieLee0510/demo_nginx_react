@@ -21,7 +21,7 @@ root.render(
         <Route path="about" element={<About />} />
         <Route path="demo" element={<Demo />} />
         <Route path="sync" element={<Snyc />} />
-        <Route path="drapAble" element={<DrapList />} />
+        {/* <Route path="drapAble" element={<DrapList />} /> */}
         {/* <Route path="/kaza" element={<Navigate to="/" replace />} />
       <Route path="*" element={<PageNotFound />} /> */}
       </Routes>
